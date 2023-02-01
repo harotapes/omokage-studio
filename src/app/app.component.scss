@@ -1,0 +1,28 @@
+.head {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/VERTEXARCHIVE/bgtest1.gif");
+  background-repeat: no-repeat, repeat;
+
+  h1 {
+    font-weight: inherit;
+    margin: 0;
+  }
+
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 500;
+  font-size: 35px;
+  font-style: italic;
+
+}
+
+.header-image {
+  img {
+    max-width: 500px;
+  }
+}
