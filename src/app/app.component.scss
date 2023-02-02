@@ -1,13 +1,24 @@
 .head {
   display: flex;
+  position: relative;
   flex-direction: row;
   height: 100vh;
   max-height: 100vh;
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  background-image: url("../assets/VERTEXARCHIVE/bgtest1.gif");
-  background-repeat: no-repeat, repeat;
+  opacity: .9;
+
+  .bg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-image: url("../assets/VERTEXARCHIVE/bgtest2.gif");
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    z-index: -9999;
+    opacity: 0.3;
+  }
 
   h1 {
     font-weight: inherit;
