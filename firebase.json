@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/vertex-gallery",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
