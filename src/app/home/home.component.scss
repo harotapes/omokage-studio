@@ -47,8 +47,6 @@
       }
 
       .header-image {
-        opacity: 0.3;
-
         img {
           max-width: 500px;
           width: 100%;
@@ -56,42 +54,7 @@
         }
       }
 
-
     }
-
-    //.content {
-    //  margin-bottom: 100px;
-    //  padding: 10px;
-    //
-    //  height: 1024px;
-    //  max-height: 1024px;
-    //
-    //  justify-content: space-evenly;
-    //  justify-items: center;
-    //  align-content: space-evenly;
-    //  align-items: center;
-    //
-    //  display: grid;
-    //  grid-template-columns: 2fr 2fr;
-    //
-    //  .card {
-    //    width: 100%;
-    //    text-align: center;
-    //    display: flex;
-    //    justify-content: space-evenly;
-    //
-    //    img {
-    //      height: 100%;
-    //      width: auto;
-    //      max-height: 500px;
-    //    }
-    //  }
-    //
-    //  .text {
-    //    text-align: left;
-    //  }
-    //}
-
   }
 
 }
@@ -151,40 +114,40 @@
     }
   }
 
-  //.content {
-  //  margin-bottom: 100px;
-  //  padding: 10px;
-  //
-  //  height: 1024px;
-  //  max-height: 1024px;
-  //
-  //  justify-content: space-evenly;
-  //  justify-items: center;
-  //  align-content: space-evenly;
-  //  align-items: center;
-  //
-  //  display: grid;
-  //  grid-template-columns: 2fr 2fr;
-  //
-  //  .card {
-  //    width: 100%;
-  //    max-width: 25vw;
-  //    text-align: center;
-  //    display: flex;
-  //    justify-content: space-evenly;
-  //
-  //
-  //    img {
-  //      height: 100%;
-  //      width: auto;
-  //      max-height: 500px;
-  //    }
-  //  }
-  //
-  //  .text {
-  //    background: whitesmoke;
-  //    text-align: left;
-  //  }
-  //}
+  .content {
+    margin-bottom: 100px;
+    padding: 10px;
+
+    height: 1024px;
+    max-height: 1024px;
+
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+    .card {
+      width: 100%;
+      max-width: 25vw;
+      text-align: center;
+      display: flex;
+      justify-content: space-evenly;
+
+      .text {
+        background: whitesmoke;
+        text-align: left;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+        max-height: 500px;
+        max-width: 500px;
+      }
+    }
+  }
 }
 
